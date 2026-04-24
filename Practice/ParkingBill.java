@@ -16,7 +16,7 @@ class ParkingBill {
         } 
         else {
             bill = (2 * 100) + (3 * 50) + (hours - 5) * 25;
-        }
+        } 
 
         System.out.println("Total Parking Bill: Rs." + bill);
 
